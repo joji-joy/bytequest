@@ -1,0 +1,244 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    nav{
+      position: absolute;
+    }
+    
+}
+@media screen and (max-width: 1300px) {
+  #textab{
+    left: 0.1em;
+    background: linear-gradient(to right,#ffffff 50%,#ffffff 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text;
+    font-size: 7em;
+  }
+  #clg{
+    font-size: 2em;
+  }
+  .textall{
+    font-size: 7em;
+  }
+  .prejoe{
+    font-size: 2em;
+    margin-bottom: 2em;
+  }
+  #date{
+    font-size: 2em;
+    margin: 0;
+  }
+  #aboutimg{
+    left: -6em;
+}
+}
+@media screen and (max-width: 1180px) {
+  #textab{
+    left: 0.1em;
+    background: linear-gradient(to right,#ffffff 50%,#ffffff 50%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip:text;
+    font-size: 7em;
+    display: none;
+  }
+  #textab1{
+    display: block;
+  }
+  .joeab{
+    gap: 0.3em;
+    right: 50%;
+    transform: translateX(50%);
+}
+  #aboutimg{
+    left: -6em;
+    display: none;
+}
+}
+@media screen and (max-width: 875px) {
+  #newimg3{
+    display: block;
+  }
+  #newimg4{
+    display: block;
+  } 
+  #para{
+    font-size: 1.08em;
+  }
+  #para3{
+    font-size: 1em;
+  }
+  #newdate{
+    top: 13em;
+}
+}
+
+@media screen and (max-width: 850px) {
+  #clg{
+    font-size: 1.5em;
+  }
+  .textall{
+    font-size: 6em;
+  }
+
+  #home{
+    height: 33em;
+  }
+  .prejoe{
+    font-size: 1.5em;
+    margin-bottom: 2.5em;
+  }
+  #newdate{
+    top: 10.5em;
+    font-size: 1.4em;
+}
+}
+@media screen and (max-width: 750px) {
+  .newp{
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #home{
+    height: 30em;
+  }
+  .joemain{
+    transform: translateY(8em);
+  }
+  #clg{
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .joevent1{
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .joevent1{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 580px) {
+  #about{
+    height: 29em;
+  }
+  #clg{
+    font-size: 0.9em;
+  }
+  .textall{
+    font-size: 3em;
+    transform: translateX(-1.1em);
+  }
+  .back{
+    height: 30em;
+  }
+  #date{
+    font-size: 1.7em;
+    transform: translate(2em,-3em);
+  }
+  #home{
+    height: 25em;
+  }
+  #textab1{
+    font-size: 3.5em;
+  }
+  .newp{
+    font-size: 1.1em;
+    width: 21em;
+}
+#newdate{
+  top: 11em;
+  font-size: 1em;
+  gap: 0.2em;
+}
+#scle{
+  scale: 0.9;
+}
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whole{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.joevent2{
+  font-size: 3em;
+}
+.joeab{
+  margin-top: 2em;
+}
+.newp{
+  font-size: 1em;
+}
+}
+@media screen and (max-width: 600px) {
+  #clg1{
+    font-size: 1.2em;
+  }
+  #clg2{
+    font-size: 0.9em;
+  }
+  #mapp{
+    height: 37px;
+}
+#mapp2{
+    height: 30px;
+}
+.hamburger-icon {
+  height: 22px;
+  width: 27px;
+}
+}
+@media screen and (max-width: 400px) {
+  #clg{
+    font-size: 0.85em;
+  }
+  .textall{
+    font-size: 2.9em;
+  }
+  #date{
+    font-size: 1.5em;
+  }
+  #mapp{
+    height: 34px;
+}
+#mapp2{
+    height: 28px;
+}
+}
+@media screen and (max-width: 500px) {
+  #clg1{
+    font-size: 0.85em;
+  }
+  #clg2{
+    font-size: 0.7em;
+  }
+  .tap{
+    display: none;
+ }
+ .tap2{
+    display: flex;
+ }
+ .tap3{
+  font-size: 1.3em;
+ }
+ #latestimg{
+  scale: 0.75;
+ }
+ #span2{
+  height: 1.5em;
+ }
+ #copybut{
+  display: none;
+ }
+}

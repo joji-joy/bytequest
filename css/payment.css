@@ -1,0 +1,91 @@
+#gooform{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 1.3em;
+    z-index:  9;
+  }
+  #frame{
+    transform: translateY(-3em);
+  }
+  #payment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10em;
+  }
+  #clicka{
+    text-decoration: none;
+  }
+  #clicka:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  
+  .button {
+    line-height: 1;
+    border: none;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .75rem;
+    background-color: var(--clr);
+    color: #fff;
+    width: 12em;
+    border-radius: 10rem;
+    font-weight: 600;
+    padding: .75rem 1.5rem;
+    font-family: "Finlandica", sans-serif;
+    font-size: 1.2em;
+    padding-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color .3s;
+    cursor: pointer;
+  }
+  
+  .button__icon-wrapper {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color: var(--clr);
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .button:hover {
+    background-color: #000;
+  }
+  
+  .button:hover .button__icon-wrapper {
+    color: #000;
+  }
+  
+  .button__icon-svg--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+  }
+  
+  .button:hover .button__icon-svg:first-child {
+    transition: transform .3s ease-in-out;
+    transform: translate(150%, -150%);
+  }
+  
+  .button:hover .button__icon-svg--copy {
+    transition: transform .3s ease-in-out .1s;
+    transform: translate(0);
+  }
+
+  @media screen and (max-width: 1090px) {
+    #gooform{
+        font-size: 1em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .button{
+        font-size: 1em;
+    }
+  }
