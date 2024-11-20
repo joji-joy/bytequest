@@ -1,85 +1,85 @@
 <?php
-// $conn = mysqli_connect( 'localhost', 'root');
+$conn = mysqli_connect( 'localhost', 'root');
 
 
-// mysqli_select_db( $conn, 'techfest' );
+mysqli_select_db( $conn, 'techfest' );
 
-// $name2 = "-";
-// $name3 = "-";
-// $name4 = "-";
+$name2 = "-";
+$name3 = "-";
+$name4 = "-";
 
 
-// $name =  $_POST['name'];
-// $name2 =  $_POST['name2'];
-// $name3 =  $_POST['name3'];
-// $name4 =  $_POST['name4'];
-// $email = $_POST['email'];
-// $phone = $_POST['phone'];
-// $amount = $_POST['amount'];
-// $college = $_POST['college'];
+$name =  $_POST['name'];
+$name2 =  $_POST['name2'];
+$name3 =  $_POST['name3'];
+$name4 =  $_POST['name4'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$amount = $_POST['amount'];
+$college = $_POST['college'];
 
-// if( !isset($name2) || empty($name2)){
-//     $name2 = "none";
-// }
+if( !isset($name2) || empty($name2)){
+    $name2 = "none";
+}
 
-// if(isset($_POST['BitByBit'])) {
-//     $check1 = "BitByBit,";
-// }
-// else{
-//     $check1 = "";
-// }
-// if(isset($_POST['CodeFusion'])) {
-//     $check2 = "CodeFusion,";
-// }
-// else{
-//     $check2 = "";
-// }
-// if(isset($_POST['PixelBattle'])) {
-//     $check3 = "PixelBattle,";
-// }
-// else{
-//     $check3 = "";
-// }
-// if(isset($_POST['TechTitans'])) {
-//     $check4 = "TechTitans,";
-// }
-// else{
-//     $check4 = "";
-// }
-// if(isset($_POST['LensesLines'])) {
-//     $check5 = "LensesandLines,";
-// }
-// else{
-//     $check5 = "";
-// }
-// if(isset($_POST['Quizbytes'])) {
-//     $check6 = "Quizbytes,";
-// }
-// else{
-//     $check6 = "";
-// }
-// if(isset($_POST['Artbits'])) {
-//     $check7 = "Artbits,";
-// }
-// else{
-//     $check7 = "";
-// }
-// if(isset($_POST['IdeaIgnite'])) {
-//     $check8 = "IdeaIgnite,";
-// }
-// else{
-//     $check8 = "";
-// }
-// if(isset($_POST['CipherEscape'])) {
-//     $check9 = "CipherEscape,";
-// }
-// else{
-//     $check9 = "";
-// }
+if(isset($_POST['BitByBit'])) {
+    $check1 = "BitByBit,";
+}
+else{
+    $check1 = "";
+}
+if(isset($_POST['CodeFusion'])) {
+    $check2 = "CodeFusion,";
+}
+else{
+    $check2 = "";
+}
+if(isset($_POST['PixelBattle'])) {
+    $check3 = "PixelBattle,";
+}
+else{
+    $check3 = "";
+}
+if(isset($_POST['TechTitans'])) {
+    $check4 = "TechTitans,";
+}
+else{
+    $check4 = "";
+}
+if(isset($_POST['LensesLines'])) {
+    $check5 = "LensesandLines,";
+}
+else{
+    $check5 = "";
+}
+if(isset($_POST['Quizbytes'])) {
+    $check6 = "Quizbytes,";
+}
+else{
+    $check6 = "";
+}
+if(isset($_POST['Artbits'])) {
+    $check7 = "Artbits,";
+}
+else{
+    $check7 = "";
+}
+if(isset($_POST['IdeaIgnite'])) {
+    $check8 = "IdeaIgnite,";
+}
+else{
+    $check8 = "";
+}
+if(isset($_POST['CipherEscape'])) {
+    $check9 = "CipherEscape,";
+}
+else{
+    $check9 = "";
+}
 
-// $query = "INSERT INTO bytequest (name, name2, name3, name4, events, email, phone, amount, college) VALUES ('$name', '$name2', '$name3', '$name4', '$check1$check2$check3$check4$check5$check6$check7$check8$check9', '$email', '$phone', '$amount', '$college')";
+$query = "INSERT INTO bytequest (name, name2, name3, name4, events, email, phone, amount, college) VALUES ('$name', '$name2', '$name3', '$name4', '$check1$check2$check3$check4$check5$check6$check7$check8$check9', '$email', '$phone', '$amount', '$college')";
 
-// mysqli_query($conn, $query);
+mysqli_query($conn, $query);
 
 
 // header('location:index.php');
